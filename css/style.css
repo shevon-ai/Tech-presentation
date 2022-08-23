@@ -87,6 +87,7 @@ a.active{
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
+    margin-bottom: 90px;
 }
 .features-container p{
     color: #1F2937;
@@ -111,3 +112,57 @@ a.active{
     font-size: 4em;
     color: #1F2937;
 }
+/* TESTIMONIAL SECTION */
+blockquote footer{
+    text-align: right;
+}
+.testimonial{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 60px 300px;
+}
+.author{
+    font-style: normal;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+}
+/* CALL TO ACTION SECTION */
+#cta{
+    padding: 100px 180px;
+}
+.cta-banner{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 0;
+    text-align: center;
+}
+.cta-text{
+    text-align: left;
+    display: inline-block;
+    color: #F9FAF8
+}
+.cta-text p{
+    color: #E5E7EB;
+}
+.cta-text h1, .cta-text p{
+    margin: 0;
+}
+.cta-sign-up-button{
+    display: inline-block;
+    margin-left: 100px;
+}
+.cta-sign-up-button button{
+    border: 2px solid #E5E7EB;
+}
+/* FOOTER SECTION */
+.footer footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 15px 0;
+    color: #F9FAF8;
+}
+
