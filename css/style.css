@@ -78,3 +78,36 @@ a.active{
     right: 214px;
     bottom: 90px;
 }
+/* FEATURES SECTION */
+.features{
+    text-align: center;
+}
+.features-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.features-container p{
+    color: #1F2937;
+}
+.feature-heading{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 35px 0;
+}
+.feature{
+    display: inline-block;
+    width: 14%;
+}
+.feature-icon-border{
+    padding: 55px;
+    text-align: center;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.features-icon{
+    font-size: 4em;
+    color: #1F2937;
+}
