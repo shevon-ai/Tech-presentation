@@ -143,13 +143,15 @@ blockquote footer{
 .cta-text{
     text-align: left;
     display: inline-block;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin: 0;
 }
 .cta-text p{
     color: #E5E7EB;
 }
 .cta-text h1, .cta-text p{
     margin: 0;
+    padding: 0;
 }
 .cta-sign-up-button{
     display: inline-block;
