@@ -2,8 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-/* HERO sECTION */
-section.hero{
+/* HERO SECTION */
+.hero{
     background-color: #1F2937;
     padding: 20px 200px 100px 200px;
     position: relative;
@@ -92,7 +92,7 @@ a.active{
 .features-container p{
     color: #1F2937;
 }
-.feature-heading{
+.feature-heading, .about-heading{
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
@@ -159,6 +159,37 @@ blockquote footer{
 }
 .cta-sign-up-button button{
     border: 2px solid #E5E7EB;
+}
+/*  ABOUT SECTION */
+.about{
+    text-align: center;
+    padding: 50px 350px;
+    margin-bottom: 20px;
+}
+.about-feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.mission-icon, .values-icon, .vision-icon{
+    width: 25%;
+    font-size: 36px;
+    padding: 40px;
+    text-align: center;
+    border: 3px solid #3882F6;
+    border-radius: 8px;  
+    margin-right: 50px;
+}
+.mission-statement, .vision-statement, .values-statement{
+    text-align: left;
+    padding: 5px 0;
+}
+.about-feature h3{
+    color: #3882F6;
+}
+.about-feature p{
+    color: #1F2937;
 }
 /* FOOTER SECTION */
 .footer footer{
