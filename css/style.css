@@ -191,6 +191,87 @@ blockquote footer{
 .about-feature p{
     color: #1F2937;
 }
+/* SIGN UP SECTION */
+section.sign-up{
+    padding: 20px 200px;
+}
+.sign-up header{
+    margin-bottom: 25px;
+}
+.sign-up-form{
+    text-align: center;
+    height: auto;
+    padding: 80px 0;
+}
+.sign-up-form h1{
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+}
+label{
+    margin-left: 0;
+    padding-left: 0;
+    color: #3882F6;
+    opacity: 0.6;
+}
+input{
+    display: block;
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+input[type=text]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+}
+input[type=email]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+input[type=email]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+}
+form{
+    background-color: #1F2937;
+    display: inline-block;
+    padding: 80px;
+    border-radius: 8px;
+    text-align: left;
+}
+form button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+form button:hover{
+    background-color: rgba(56, 130, 246, 0.6);
+    cursor: pointer;
+}
+form h2{
+    color: #F9FAF8;
+}
+::placeholder{
+    color: #F9FAF8;
+    opacity: 0.5;
+}
+:-ms-input-placeholder{
+    color: #F9FAF8;
+    opacity: 0.7;
+}
 /* FOOTER SECTION */
 .footer footer{
     background-color: #1F2937;
