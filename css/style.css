@@ -1,18 +1,21 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
 /* HERO SECTION */
-.hero{
+.hero {
     background-color: #1F2937;
     padding: 20px 200px 100px 200px;
     position: relative;
 }
-header{
+
+header {
     margin-bottom: 100px;
     position: relative;
 }
-ul{
+
+ul {
     list-style-type: none;
     display: inline;
     margin: 0;
@@ -20,22 +23,27 @@ ul{
     position: absolute;
     right: 0;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline;
 }
-ul li{
+
+ul li {
     display: inline;
 }
-li a{
+
+li a {
     color: #E5E7EB;
     font-size: 18px;
     padding: 14px;
 }
-a.active{
+
+a.active {
     font-weight: bolder;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
@@ -43,24 +51,29 @@ a.active{
     position: absolute;
     left: 0;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     color: #F9FAF8;
     border-bottom: 3px solid #F9FAF8;
 }
-.hero-text{
+
+.hero-text {
     width: 50%;
 }
-.hero-maintext{
+
+.hero-maintext {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 0;
 }
-.hero-subtext{
+
+.hero-subtext {
     color: #E5E7EB;
     font-size: 18px;
 }
-.sign-up-button{
+
+.sign-up-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bolder;
@@ -68,55 +81,67 @@ a.active{
     border: none;
     border-radius: 8px;
 }
-.sign-up-button:hover{
+
+.sign-up-button:hover {
     background-color: rgba(56, 130, 246, 0.6);
     cursor: pointer;
 }
-.hero-img{
+
+.hero-img {
     height: 245px;
     position: absolute;
     right: 214px;
     bottom: 90px;
 }
+
 /* FEATURES SECTION */
-.features{
+.features {
     text-align: center;
 }
-.features-container{
+
+.features-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
     margin-bottom: 90px;
 }
-.features-container p{
+
+.features-container p {
     color: #1F2937;
 }
-.feature-heading, .about-heading{
+
+.feature-heading,
+.about-heading {
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
     margin: 35px 0;
 }
-.feature{
+
+.feature {
     display: inline-block;
     width: 14%;
 }
-.feature-icon-border{
+
+.feature-icon-border {
     padding: 55px;
     text-align: center;
     border: 3px solid #3882F6;
     border-radius: 8px;
 }
-.features-icon{
+
+.features-icon {
     font-size: 4em;
     color: #1F2937;
 }
+
 /* TESTIMONIAL SECTION */
-blockquote footer{
+blockquote footer {
     text-align: right;
 }
-.testimonial{
+
+.testimonial {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
@@ -124,97 +149,122 @@ blockquote footer{
     color: #1F2937;
     padding: 60px 300px;
 }
-.author{
+
+.author {
     font-style: normal;
     font-size: 18px;
     color: #1F2937;
     font-weight: bold;
 }
+
 /* CALL TO ACTION SECTION */
-#cta{
+#cta {
     padding: 100px 180px;
 }
-.cta-banner{
+
+.cta-banner {
     background-color: #3882F6;
     border-radius: 8px;
     padding: 50px 0;
     text-align: center;
 }
-.cta-text{
+
+.cta-text {
     text-align: left;
     display: inline-block;
     color: #F9FAF8;
     margin: 0;
 }
-.cta-text p{
+
+.cta-text p {
     color: #E5E7EB;
 }
-.cta-text h1, .cta-text p{
+
+.cta-text h1,
+.cta-text p {
     margin: 0;
     padding: 0;
 }
-.cta-sign-up-button{
+
+.cta-sign-up-button {
     display: inline-block;
     margin-left: 100px;
 }
-.cta-sign-up-button button{
+
+.cta-sign-up-button button {
     border: 2px solid #E5E7EB;
 }
+
 /*  ABOUT SECTION */
-.about{
+.about {
     text-align: center;
     padding: 50px 350px;
     margin-bottom: 20px;
 }
-.about-feature{
+
+.about-feature {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 20px;
 }
-.mission-icon, .values-icon, .vision-icon{
+
+.mission-icon,
+.values-icon,
+.vision-icon {
     width: 25%;
     font-size: 36px;
     padding: 40px;
     text-align: center;
     border: 3px solid #3882F6;
-    border-radius: 8px;  
+    border-radius: 8px;
     margin-right: 50px;
 }
-.mission-statement, .vision-statement, .values-statement{
+
+.mission-statement,
+.vision-statement,
+.values-statement {
     text-align: left;
     padding: 5px 0;
 }
-.about-feature h3{
+
+.about-feature h3 {
     color: #3882F6;
 }
-.about-feature p{
+
+.about-feature p {
     color: #1F2937;
 }
+
 /* SIGN UP SECTION */
-section.sign-up{
+section.sign-up {
     padding: 20px 200px;
 }
-.sign-up header{
+
+.sign-up header {
     margin-bottom: 25px;
 }
-.sign-up-form{
+
+.sign-up-form {
     text-align: center;
     height: auto;
     padding: 80px 0;
 }
-.sign-up-form h1{
+
+.sign-up-form h1 {
     color: #1F2937;
     font-weight: bold;
     font-size: 24px;
 }
-label{
+
+label {
     margin-left: 0;
     padding-left: 0;
     color: #3882F6;
     opacity: 0.6;
 }
-input{
+
+input {
     display: block;
     height: 25px;
     margin-bottom: 5px;
@@ -225,28 +275,34 @@ input{
     -webkit-transition: 1s;
     transition: 1s;
 }
-input[type=text]:hover{
+
+input[type=text]:hover {
     box-shadow: 0 0 5pt 0.5pt #D3D3D3;
 }
+
 input[type=text]:focus {
     box-shadow: 0 0 5pt 2pt #D3D3D3;
     outline-width: 0px;
 }
-input[type=email]:hover{
+
+input[type=email]:hover {
     box-shadow: 0 0 5pt 0.5pt #D3D3D3;
 }
+
 input[type=email]:focus {
     box-shadow: 0 0 5pt 2pt #D3D3D3;
     outline-width: 0px;
 }
-form{
+
+form {
     background-color: #1F2937;
     display: inline-block;
     padding: 80px;
     border-radius: 8px;
     text-align: left;
 }
-form button{
+
+form button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bolder;
@@ -257,26 +313,30 @@ form button{
     -webkit-transition: 1s;
     transition: 1s;
 }
-form button:hover{
+
+form button:hover {
     background-color: rgba(56, 130, 246, 0.6);
     cursor: pointer;
 }
-form h2{
+
+form h2 {
     color: #F9FAF8;
 }
-::placeholder{
+
+::placeholder {
     color: #F9FAF8;
     opacity: 0.5;
 }
-:-ms-input-placeholder{
+
+:-ms-input-placeholder {
     color: #F9FAF8;
     opacity: 0.7;
 }
+
 /* FOOTER SECTION */
-.footer footer{
+.footer footer {
     background-color: #1F2937;
     text-align: center;
     padding: 15px 0;
     color: #F9FAF8;
 }
-
